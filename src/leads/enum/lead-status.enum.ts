@@ -1,0 +1,11 @@
+export enum LeadStatus {
+  NEW = 0,
+  FOLLOW_UP = 1,
+  SURVEY_REQUEST = 2,
+  SURVEY_APPROVE = 3,
+  SURVEY_REJECT = 4,
+  SURVEY_COMPLETE = 5,
+  FINAL_FOLLOW_UP = 6,
+  DEAL = 7,
+  CANCELED = 8,
+}
